@@ -21,7 +21,7 @@ body{
 
 .container{
     width: 100%;
-    max-width: 720px;
+    max-width: 600px;
     margin: 3.125rem auto 0 auto;
     display: flex;
     flex-direction: column;
@@ -29,6 +29,7 @@ body{
     justify-content: center;
     /* background-color: #f3f3f3; */
     border: 1px solid white;
+    box-shadow: 0 0 10px 10px gray;
 }
 
 
@@ -42,7 +43,7 @@ h1, #descricption{
     text-align: center;
 }
 
-#descricption{
+#description{
     font-style: italic;
     font-weight: 200;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
